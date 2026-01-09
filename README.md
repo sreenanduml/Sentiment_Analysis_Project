@@ -39,3 +39,33 @@ It predicts whether a given text expresses a Positive, Negative, or Neutral sent
 Features:
 
 Trained ML model using TF-IDF + Logistic Regression and used Flask-based web application for real-time predictions
+
+## Technologies Used
+
+Programming Language: Python
+
+Web Framework: Flask
+
+Machine Learning: Scikit-learn
+
+Text Processing: TF-IDF Vectorization
+
+Model: Logistic Regression
+
+Frontend: HTML
+
+Data Handling: Pandas
+
+## Clone the Repository
+
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+## Create Virtual Environment
+
+python -m venv venv
+source venv/bin/activate   # Windows: venv\Scripts\activate
+
+## Install Required Dependencies
+
+pip install -r requirements.txt

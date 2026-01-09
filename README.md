@@ -1,4 +1,4 @@
-                                Sentiment Analysis App
+SENTIMENT ANALYSIS APP
 
 Sentiment Analysis is a Natural Language Processing (NLP) technique used to identify and classify emotions expressed in text. It is widely applied in areas such as social media monitoring, product review analysis, customer feedback evaluation, and opinion mining.                                
 This project implements a Sentiment Analysis Web Application using Machine Learning and Flask. The application accepts textual input from users and predicts the sentiment as Positive, Negative, or Neutral. The model is trained on a labeled dataset containing tweets/reviews and is capable of performing both real-time predictions and batch predictions on CSV files.

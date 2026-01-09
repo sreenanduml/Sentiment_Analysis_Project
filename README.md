@@ -8,13 +8,12 @@ sentiment_app/
 
 ├── data/
 
-   ├── tweets.csv
-   
-   └── tweets_with_predictions.csv
+   ├── test (1).csv
 
 ├── model/
 
    ├── sentiment_model.pkl
+   
    └── vectorizer.pkl
 
 ├── templates/

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analysis App</title>
+</head>
+<body>
+    <h2>Tweet Sentiment Analysis</h2>
+
+    <form method="post">
+        <textarea name="review" rows="6" cols="60"
+                  placeholder="Enter text here...">{{ user_text }}</textarea><br><br>
+        <button type="submit">Analyze</button>
+    </form>
+
+    {% if sentiment %}
+        <h3>Predicted Sentiment: {{ sentiment }}</h3>
+    {% endif %}
+</body>
+</html>
